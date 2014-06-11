@@ -1,0 +1,104 @@
+Port-A
+------
+00		- Pushbutton B1 (User)
+01
+02
+03
+04
+05		- L3GD Gyro SPI1_SCK
+06		- L3GD Gyro SPI1_MISO
+07		- L3GD Gyro SPI1_MOSI
+08
+09
+10
+11		- USB User USB_DM
+12		- USB User USB_DP
+13		- ST-Link TMS/SWDIO
+14		- ST-Link TCK/SWCLK
+15
+
+Port-B
+------
+00
+01
+02
+03		- ST-Link T_SWO (Note: Not Enabled... SB10 OFF!!... usable as GPIO)
+04
+05
+06		- LSM303 Accel SCL
+07		- LSM303 Accel SDA
+08
+09
+10
+11
+12
+13
+14
+15
+
+Port-C
+------
+00
+01
+02
+03
+04		- ST-Link USART_TX
+05		- ST-Link USART_RX
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+
+Port-D
+------
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+
+Port-E
+------
+00		- L3GD Gyro MEMS_INT1
+01		- L3GD Gyro MEMS_INT2
+02		- LSM303 Accel DRDY
+03		- L3GD Gyro CS_I2C/SPI
+04		- LSM303 Accel INT1
+05		- LSM303 Accel INT2
+06
+07
+08		- LED LD4 (Blue)
+09		- LED LD3 (Red)
+10		- LED LD5 (Orange)
+11		- LED LD7 (Green)
+12		- LED LD9 (Blue)
+13		- LED LD10 (Red)
+14		- LED LD8 (Orange)
+15		- LED LD6 (Green)
+
+Port-F
+------
+00		- OSC-IN 8MHz from ST-Link
+01
+02
+04
+06
+09
+10
